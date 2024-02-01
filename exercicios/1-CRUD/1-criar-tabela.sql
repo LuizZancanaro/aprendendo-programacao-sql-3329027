@@ -1,4 +1,6 @@
 -- Crie uma nova tabela no banco de dados
--- SQLite
-SELECT * 
-FROM tracks;
+CREATE TABLE salario_classe(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+classe TEXT,
+salario INTEGER
+);
